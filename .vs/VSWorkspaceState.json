@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\rust_os",
+    "\\rust_os\\.cargo",
+    "\\rust_os\\src",
+    "\\rust_os\\target",
+    "\\rust_os\\target\\x86_64-rust_os",
+    "\\rust_os\\target\\x86_64-rust_os\\debug"
+  ],
+  "SelectedNode": "\\rust_os\\target\\x86_64-rust_os\\debug\\examples",
+  "PreviewInSolutionExplorer": false
+}

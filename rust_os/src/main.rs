@@ -35,9 +35,27 @@ fn panic(_info: &PanicInfo) -> ! {
 // create a new _start fn to replace main
 // 'extern "C"' tells compiler to use C calling convention instead of an unspecfied rust calling convention.
 // this is not called by any function, so it should never return.
+
+// u8 - unsigned 8-bit int (1 byte with no sign bit)
+// store 'Hello World!' as byte code
+static HELLO: &[u8] = b"Hello World!";
+
 #[no_mangle] // don't mangle the name of this function
 pub extern "C" fn _start() -> ! {
     // this function is the entry point, since the linker looks for a function
     // named `_start` by default
+
+    // create a mutable pointer with the value 0xb8000 as an 8 bit un signed int
+    let vga_buffer = 0xb8000 as *mut u8;
+
+    // iterate over static variable 
+    for (i, &byte) in HELLO.iter().enumerate() {
+        // unsafe because we are dereferencing vga_buffer
+        unsafe {
+            *vga_buffer.offset(i as isize * 2) = byte;
+            *vga_buffer.offset(i as isize * 2 + 1) = 0xb; // color, 0xb is cyan
+        }
+    }
+
     loop {}
 }
