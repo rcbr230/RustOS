@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\Cargo.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rust_os\\Cargo.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\main.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rust_os\\src\\main.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\.cargo\\config.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rust_os\\.cargo\\config.toml||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "config.toml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\.cargo\\config.toml",
+              "RelativeDocumentMoniker": "rust_os\\.cargo\\config.toml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\.cargo\\config.toml",
+              "RelativeToolTip": "rust_os\\.cargo\\config.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-15T01:42:42.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Cargo.toml",
+              "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\Cargo.toml",
+              "RelativeDocumentMoniker": "rust_os\\Cargo.toml",
+              "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\Cargo.toml",
+              "RelativeToolTip": "rust_os\\Cargo.toml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-15T01:42:35.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "main.rs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\main.rs",
               "RelativeDocumentMoniker": "rust_os\\src\\main.rs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\main.rs",
               "RelativeToolTip": "rust_os\\src\\main.rs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-15T01:31:09.513Z",
               "EditorCaption": ""

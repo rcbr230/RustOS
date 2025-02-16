@@ -1,5 +1,17 @@
 // main.rs
 
+/*
+HOW TO RUN:
+    Needs: QEMU or some other Virtual PC
+
+    commands:
+    cargo build
+    cargo bootimage
+    D:/qemu/qemu-system-x86-64 -drive format=raw,file=target/x86-64-rust_os/debug/bootimage-rust_os.bin
+*/
+
+
+
 // needs to not try and use the linker for windows
 // create that with the target being bare metal:
 //      rustup target add thumbv7em-none-eabihf
@@ -46,14 +58,21 @@ pub extern "C" fn _start() -> ! {
     // named `_start` by default
 
     // create a mutable pointer with the value 0xb8000 as an 8 bit un signed int
+    //  b8 means it's a text buffer
     let vga_buffer = 0xb8000 as *mut u8;
 
     // iterate over static variable 
     for (i, &byte) in HELLO.iter().enumerate() {
         // unsafe because we are dereferencing vga_buffer
         unsafe {
+            /*
+            * NOTE: VGA BUFFER- 
+                Uses 2 bytes to represent a character!
+                First byte has the value of the character
+                Second byte has the color of the character
+            */
             *vga_buffer.offset(i as isize * 2) = byte;
-            *vga_buffer.offset(i as isize * 2 + 1) = 0xb; // color, 0xb is cyan
+            *vga_buffer.offset(i as isize * 2 + 1) = 0x1b; // color, 0xb is cyan
         }
     }
 
