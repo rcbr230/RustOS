@@ -88,7 +88,6 @@ pub extern "C" fn _start1() -> ! {
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-
     vga_buffer::WriteSomething("I can put text here :3");
     loop{}
 }
