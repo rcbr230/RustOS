@@ -43,6 +43,12 @@ fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
 
+// create a module 'vga_buffer' so that I can begin to use the VGA buffer properly
+mod vga_buffer;
+
+
+
+
 // use no_mangle so that name stays as _start rather than some insane giberish
 // create a new _start fn to replace main
 // 'extern "C"' tells compiler to use C calling convention instead of an unspecfied rust calling convention.
@@ -50,10 +56,10 @@ fn panic(_info: &PanicInfo) -> ! {
 
 // u8 - unsigned 8-bit int (1 byte with no sign bit)
 // store 'Hello World!' as byte code
-static HELLO: &[u8] = b"Hello World!";
+/*static HELLO: &[u8] = b"Hello World!";
 
 #[no_mangle] // don't mangle the name of this function
-pub extern "C" fn _start() -> ! {
+pub extern "C" fn _start1() -> ! {
     // this function is the entry point, since the linker looks for a function
     // named `_start` by default
 
@@ -72,9 +78,17 @@ pub extern "C" fn _start() -> ! {
                 Second byte has the color of the character
             */
             *vga_buffer.offset(i as isize * 2) = byte;
-            *vga_buffer.offset(i as isize * 2 + 1) = 0x1b; // color, 0xb is cyan
+            *vga_buffer.offset(i as isize * 2 + 1) = 0x88; // color, 0xb is cyan
         }
     }
 
     loop {}
+}*/
+
+
+#[no_mangle]
+pub extern "C" fn _start() -> ! {
+
+    vga_buffer::WriteSomething("I can put text here :3");
+    loop{}
 }
