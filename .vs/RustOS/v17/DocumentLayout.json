@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "rust_os\\src\\vga_buffer.rs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\vga_buffer.rs",
               "RelativeToolTip": "rust_os\\src\\vga_buffer.rs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-19T09:36:08.538Z",
               "EditorCaption": ""
@@ -47,8 +47,7 @@
               "RelativeToolTip": "rust_os\\Cargo.toml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-15T01:42:35.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T01:42:35.607Z"
             },
             {
               "$type": "Document",
@@ -60,8 +59,7 @@
               "RelativeToolTip": "rust_os\\src\\main.rs",
               "ViewState": "AgIAADgAAAAAAAAAAAAqwFsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-15T01:31:09.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T01:31:09.513Z"
             }
           ]
         }

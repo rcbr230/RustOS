@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\rust_os",
-    "\\rust_os\\src",
-    "\\rust_os\\target\\x86_64-rust_os\\debug"
+    "\\rust_os\\src"
   ],
   "SelectedNode": "\\rust_os\\src\\vga_buffer.rs",
   "PreviewInSolutionExplorer": false
