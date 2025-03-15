@@ -7,7 +7,7 @@ HOW TO RUN:
     commands:
     cargo build
     cargo bootimage
-    D:/qemu/qemu-system-x86-64 -drive format=raw,file=target/x86-64-rust_os/debug/bootimage-rust_os.bin
+    D:/qemu/qemu-system-x86_64 -drive format=raw,file=target/x86_64-rust_os/debug/bootimage-rust_os.bin
 */
 
 
@@ -88,6 +88,8 @@ pub extern "C" fn _start1() -> ! {
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
-    vga_buffer::WriteSomething("I can put text here :3");
+    println!("hi there");
+    print!("what's good");
+
     loop{}
 }
