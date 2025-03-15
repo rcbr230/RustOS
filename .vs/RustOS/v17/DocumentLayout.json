@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\vga_buffer.rs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rust_os\\src\\vga_buffer.rs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\main.rs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rust_os\\src\\main.rs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\vga_buffer.rs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:rust_os\\src\\vga_buffer.rs||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\Cargo.toml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -22,30 +22,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.rs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\main.rs",
               "RelativeDocumentMoniker": "rust_os\\src\\main.rs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\main.rs",
               "RelativeToolTip": "rust_os\\src\\main.rs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFsAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFoAAAAhAAAAAAAAAA==",
               "Icon": "c622248c-8545-475a-99b2-201af73752bd.000001|",
               "WhenOpened": "2025-03-15T04:01:21.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "vga_buffer.rs",
               "DocumentMoniker": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\vga_buffer.rs",
               "RelativeDocumentMoniker": "rust_os\\src\\vga_buffer.rs",
               "ToolTip": "C:\\Users\\Owner\\Documents\\GitHub\\RustOS\\rust_os\\src\\vga_buffer.rs",
               "RelativeToolTip": "rust_os\\src\\vga_buffer.rs",
-              "ViewState": "AgIAAJ8AAAAAAAAAAAAIwLsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAIwLsAAAAGAAAAAAAAAA==",
               "Icon": "c622248c-8545-475a-99b2-201af73752bd.000001|",
               "WhenOpened": "2025-02-19T09:36:08.538Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "rust_os\\Cargo.toml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
               "Icon": "c622248c-8545-475a-99b2-201af73752bd.000002|",
-              "WhenOpened": "2025-02-15T01:42:35.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-15T01:42:35.607Z"
             }
           ]
         }
